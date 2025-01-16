@@ -13,7 +13,7 @@ def speak(audio):
     engine.runAndWait()
 
 def WolfRamAlpha(query):
-    apikey = "X2Y3HR-XP38UPYTYY"
+    apikey = "YOUR_API_KEY"
     requester = wolframalpha.Client(apikey)
     requested = requester.query(query)
 
